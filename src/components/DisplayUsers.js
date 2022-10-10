@@ -35,9 +35,11 @@ function DisplayUsers() {
   };
 
   return (
-    <div>
-      <h2 className="font-bold text-center text-xl">Users</h2>
+    <div class="overflow-hidden bg-white shadow sm:rounded-lg">
+  <div class="px-4 py-5 sm:px-6">
 
+
+      <h2 className="font-bold text-center text-xl">Users</h2>
       <div>
         <table className="max-w-5xl my-5 mx-auto table-auto">
           <thead className="justify-between">
@@ -93,6 +95,7 @@ function DisplayUsers() {
           </tbody>
         </table>
       </div>
+    </div>
     </div>
   );
 }
